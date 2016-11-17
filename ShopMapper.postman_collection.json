@@ -1,0 +1,56 @@
+{
+	"id": "48fcbb5e-3ba2-413a-58dc-2589e579575c",
+	"name": "ShopMapper",
+	"description": "",
+	"order": [
+		"daeca337-93c2-d500-4604-ac49f6dd2773",
+		"bb76e8ae-c225-eadb-762c-c68dee6463be"
+	],
+	"folders": [],
+	"timestamp": 1479415046715,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "bb76e8ae-c225-eadb-762c-c68dee6463be",
+			"headers": "",
+			"url": "http://localhost:8000/v1/shopmapper/shop?customerLongitude=80.2403913&customerLatitude=12.9598291",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "48fcbb5e-3ba2-413a-58dc-2589e579575c",
+			"data": null,
+			"dataMode": "params",
+			"name": "searchShops",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1479415110806,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "daeca337-93c2-d500-4604-ac49f6dd2773",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"url": "http://localhost:8000/v1/shopmapper/shop",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "48fcbb5e-3ba2-413a-58dc-2589e579575c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "addshops",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1479415074784,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"shopName\": \"PayPal\",\n    \"shopAddress\": {\n      \"number\": 3000,\n      \"postCode\": \"600096\"\n    }\n}"
+		}
+	]
+}
