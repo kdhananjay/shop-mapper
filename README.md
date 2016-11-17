@@ -3,10 +3,10 @@ Shop-Mapper uses the Google Maps Geocoding API to retrieve  the longitude and la
 
 # Two APIs
 
-This Shop Mapper REST serviceprovides 2 APIs:-
+ ShopMapper REST service provides 2 APIs:-
 
-  - (GET)Get all nearby shops based on longitude and latitude of customer.
-  - (PPST)To add shop to Shop Mapper based on it's name and PostalCode.
+  - (GET)  Get all nearby shops based on longitude and latitude of customer.
+  - (POST) To add shop to Shop Mapper based on it's name and PostalCode.
   
  # Build
  
